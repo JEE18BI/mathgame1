@@ -55,6 +55,7 @@ display: none;
     text-align: center;
     border-radius: 10px;
     font-family: cursive,san-serif;
+    left:40px;
 
 }
 #choose{
@@ -66,6 +67,7 @@ display: none;
     height: 50px;
     border-radius: 10px;
     color: white;
+    left:40px;
 }
 #p1{
 padding-left: 120px;
@@ -75,6 +77,7 @@ padding-left: 120px;
     height:100px;
     margin-top: 300px;
     margin-left:50px;
+    
    
 }
 
@@ -94,6 +97,7 @@ padding-left: 120px;
     line-height: 80px;
     position: relative;
     transition: all 0.2s;
+    left:20px;
 
 }
 .answer:active{
@@ -121,6 +125,7 @@ padding-left: 120px;
     transition: all 0.2s;
    font-size:17px;
    margin-top: 20px;
+   left:20px;
 
 }
 #startreset:hover{
