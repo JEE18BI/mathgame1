@@ -1,0 +1,164 @@
+html{
+    height:100%;
+    background-image: url(math2.jpg);
+   
+}
+#container {
+    height:500px;
+    width:550px;
+    background: linear-gradient(rgb(32, 40, 44),rgb(35, 88, 131));
+    margin : 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    position: relative;
+}
+#score{
+    background-color: rgb(174, 247, 251);
+    width :70px;
+    height: 30px;
+    left: 450px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: gray;
+    position: absolute;
+    box-shadow: 0px 4px 0px gray;
+    border-radius:8px;
+}
+#correct{
+    position: absolute;
+    background:linear-gradient(rgb(97, 142, 160),rgb(114, 189, 143)) ;
+    left : 250px;
+    padding: 11px;
+    color: white;
+display: none;
+
+}
+#wrong{
+    position : absolute;
+     background: linear-gradient( rgb(147, 114, 147),rgb(72, 72, 173));
+     left: 250px; 
+     padding: 11px;
+     display: none;
+     color:white;
+     border-radius: 2px;
+
+}
+#Question{
+    background: linear-gradient(rgb(87, 154, 179),white);
+    position: absolute;
+   margin: 50px ;
+    width: 400px;
+    height: 180px;
+    box-shadow: 0px 4px #535aa8;
+    font-size: 100px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: cursive,san-serif;
+
+}
+#choose{
+    background-color: rgb(136, 120, 136);
+    position: absolute;
+    width: 400px;
+    margin-top: 240px;
+    margin-left: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+}
+#p1{
+padding-left: 120px;
+}
+#choices{
+    width: 450px;
+    height:100px;
+    margin-top: 300px;
+    margin-left:50px;
+   
+}
+
+
+
+.answer{
+    width : 85px;
+    height: 86px;
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+    box-shadow: 0px 4px #6b54d3;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba (0,0,0,0.2);
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.2s;
+
+}
+.answer:active{
+    box-shadow: 0px 4px #6b54d3;
+    top:4px;
+}
+.answer:hover{
+    box-shadow: 0px 4px #6b54d3;
+    background-color: #9C89F6;
+    color: white;
+}
+#startreset{ width : 85px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.5);
+    float: left;
+    margin-left: 200px;
+    margin-right: 20px;
+    box-shadow: 0px 4px #6b54d3;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba (0,0,0,0.2);
+    padding-left: 15px;
+    padding-top: 15px;
+    position: relative;
+    transition: all 0.2s;
+   font-size:17px;
+   margin-top: 20px;
+
+}
+#startreset:hover{
+    box-shadow: 0px 4px #6b54d3;
+    background-color: #9C89F6;
+    color: white;
+}
+#startreset:active{
+    box-shadow: 0px 4px #6b54d3;
+    top:4px;
+}
+#timeremaining{
+   background-color:  rgb(174, 247, 251);
+   width: 200px;
+   height: 30px;
+   padding: 10px;
+   position: absolute;
+   top: 3px;
+   left: 650px;
+
+   border-radius: 8px;
+   display :none;
+   color:black;
+   text-align: center;
+  
+  
+}
+#gameover{
+    height:200px;
+    width:500px;
+    background:linear-gradient(#252012,#332a70
+);
+color:white;
+font-size: 2.5em;
+text-align: center;
+text-transform: uppercase;
+position: absolute;
+top:100px;
+left:40px;
+display: none;
+}
